@@ -41,10 +41,10 @@
       var d = new Date();
 
       var s =
-        leadingZeros(d.getFullYear(), 4) + '-' +
-        leadingZeros(d.getMonth() + 1, 2) + '-' +
-        leadingZeros(d.getDate(), 2) + ' ' +
-
+        leadingZeros(d.getFullYear(), 4) + '년 ' +
+        leadingZeros(d.getMonth() + 1, 2) + '월 ' +
+        leadingZeros(d.getDate(), 2) + '일      ' +
+      
         leadingZeros(d.getHours(), 2) + ':' +
         leadingZeros(d.getMinutes(), 2) + ':' +
         leadingZeros(d.getSeconds(), 2);
@@ -129,7 +129,7 @@
     </header>
     
     <form name="rtcForm">
-        <input type="text" name="rtcInput" size="20" readonly="readonly" />
+        <input type="text" name="rtcInput" size="25" readonly="readonly" />
     </form>
     
     
